@@ -1,0 +1,237 @@
+body{
+    background-color: rgb(12, 12, 12);
+} 
+
+.option{
+    display: flex;
+    /* height: 900px; */
+    /* width: 700px; */
+    margin: 5px auto;
+}
+
+
+/* part of instagram home pannel */
+.instagram{
+    position: fixed;
+    background-color: rgb(9, 9, 9);
+    height: 650px;
+    width: 295px;
+    border-right: 1px solid rgb(32, 31, 31);
+    
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+a{
+  text-decoration: none; 
+  color: white; 
+ 
+  margin: 10px;
+  height: 30px;
+ 
+}
+.link:hover{
+    background-color:rgb(124, 120, 120) ;
+    border-radius: 10px; 
+}
+
+.profile{
+    display: flex;
+    padding: 7px;
+}
+.prof{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: rgb(206, 126, 20);
+}
+.prof1{
+    margin-top: 5px;
+}
+.profile:hover{
+    background-color: rgb(128, 124, 124);
+    border-radius: 10px;
+}
+
+
+.more{
+    color: whitesmoke;
+    height: 40px;
+    width: 260px;
+    margin-top: 100px;
+}
+.more:hover{
+    background-color:rgb(105, 103, 103) ;
+    border-radius: 10px; 
+}
+.more1{
+   height: 40px;
+   margin-top: 10px;
+   float: left;
+   margin-left: 20px;
+   width: 10px;
+}
+.bar{
+    width: 20px;
+    height: 3px;
+    background-color: aliceblue;
+    margin: 4px 0;
+    
+ }
+
+
+
+ /* part of instagram  story side  */
+.midd1{
+    width: 895px;
+    height: 950px;
+    display: flex;
+    margin-left: 295px; 
+   
+}
+.img-down{
+    font-size: 11px;
+}
+.middle{ 
+    background-color: rgb(13, 13, 13);
+    
+ } 
+.noti{
+    
+    height: 90px;
+    padding: 10px;
+    width: 570px;
+    background-color: rgb(11, 10, 10);
+    
+}
+.story1{
+    display: flex;
+}
+ 
+.svg{
+    border: 2px solid rgb(22, 22, 22);
+    margin: 5px;
+    height: 60px;
+    margin: 15px;
+    width: 60px;
+    background-image: linear-gradient(red, yellow,red,rgb(241, 243, 240));
+    border-radius: 40px;
+} 
+
+
+.image{
+    border-radius: 30px;
+    margin: 2px;
+    border: 3px solid white;
+}
+.img-down{
+    margin: 4px;
+}
+
+
+
+/* part of down  story  post gatri  */
+.csvg{
+    padding-top: 10px;
+}
+.mouse{
+    margin: 10px;
+    display: flex;
+}
+.image1{
+   
+    border-radius: 40px;
+   
+}
+
+.post{
+    height: 500px;
+    width: 580px;
+   
+    
+    background-image:linear-gradient(white,pink);
+   
+}
+.post-img{
+    height: 50px;
+    width: 50px;
+}
+.img2{
+    padding: 50px;
+    margin-left: 40px;
+    height: 400px;
+    width: 400px;
+}
+.like{
+    color: white;
+    margin: 15px;
+    font-size: 25px;
+}
+.comment{
+    flex-direction: column;
+    color: white;
+    margin-left: 9px;
+}
+
+
+
+/* part of switch profile sides */
+.profile1{
+    display: flex;
+    
+    padding-left: 25px;
+    padding-top: 15px;
+    color: white;
+    height: 935px;
+    width: 300px;
+    background-color: rgb(11, 10, 10);
+}
+
+
+.mouse1{
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.img-down1{
+    margin: 14px;
+}
+/* three dot for post  */
+
+
+.bar1{
+    width: 5px;
+    margin: 10px;
+    height: 5px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    margin: 9px 0;
+}
+
+
+.barp{
+    margin: 10px;
+    
+    display: flex;
+    padding-top: 10px;
+   
+    
+    width: 60px;
+    margin-left: 520px;
+}
+.bar1:hover{
+    background-color: aqua;
+}
